@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+:root{
+    --cor001:#312b31;
+    --cor002:#303e42;
+    --cor003:#94A6A2;
+    --cor004:#E2E3DD;
+    --cor005:#BF8F36;
+
+    --fonte001:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor004);
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte001);
+    min-height: 100vh;
+}
+
+
+
+header{
+    height: 180px;
+    background-color: #BF8F36;
+    background-image: url(/imagens/papiro2.png);
+    background-position: top center;
+}
+
+header > h1{
+        color:var(--cor002);
+        text-align: center;
+        font-size: 4em;
+        font-weight: bolder;
+        padding-top: 40px;
+        margin-bottom: 0px;
+}
+
+header > p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;    
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--cor004);
+    text-decoration: underline;
+}
+
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-left: 30px;
+    font-size: 1.5em;
+    color: var(--cor002);
+
+}
+
+.imagem{
+    color: var(--cor004);
+    background-color: #bf8f36c9;
+    width: 350px;
+}
+
+footer{
+    padding: 5px;
+    background-color: var(--cor001);
+    text-align: center;
+    color: var(--cor004);
+}
