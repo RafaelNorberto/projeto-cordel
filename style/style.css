@@ -28,7 +28,7 @@ body{
 
 
 header{
-    height: 180px;
+    height: 210px;
     background-color: #312b31;
 
 }
@@ -91,13 +91,13 @@ section{
     padding-bottom: 2em;
 }
 #img001{
-    background-image: url(/imagens/folhas.jpg);
+    background-image: url('../imagens/folhas.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
 
 #img002{
-    background-image: url(/imagens/relogios01.jpg);
+    background-image: url('../imagens/relogios01.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
